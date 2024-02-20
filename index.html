@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta
-     name="description"
-     content="This website is for HAPPYLAND UNIVERSITY, assisting its students to meet various mentors around the world."
-   />
-   <link
-     rel="apple-touch-icon"
-     sizes="180x180"
-     href="favicon/apple-touch-icon.png"
-   />
-   <link
-     rel="icon"
-     type="image/png"
-     sizes="32x32"
-     href="favicon/favicon-32x32.png"
-   />
-   <link
-     rel="icon"
-     type="image/png"
-     sizes="16x16"
-     href="favicon/favicon-16x16.png"
-   />
-   <link rel="manifest" href="favicon/site.webmanifest" />
-   <link rel="stylesheet" href="styles.css" />
-   <title>HAPPYLAND UNIVERSITY</title>
- </head>
- <body>
-   <header>
-     <div>
-       <h1 class="header__h1">UNIVERSITY <br /></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This website is for HAPPYLAND UNIVERSITY, assisting its students to meet various mentors around the world."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HAPPYLAND UNIVERSITY</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="header__h1">UNIVERSITY <br /></h1>
+        <p class="header__p">Happyland Education</p>
+      </div>
 
+      <!-- Menu button for small screens -->
+      <button class="menu-button" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-       <p class="header__p">Happyland Education</p>
-     </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-link">HOME</a></li>
+          <li><a href="#mentors" class="nav-link">MENTORS</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#apply" class="nav-link">APPLY</a></li>
+        </ul>
+      </nav>
+    </header>
 
-
-     <nav>
-       <ul>
-         <li><a href="#" target="_blank" class="nav-link">HOME</a></li>
-
-
-         <li><a href="#" target="_blank" class="nav-link">MENTORS</a></li>
-
-
-         <li><a href="#" target="_blank" class="nav-link">ABOUT</a></li>
-
-
-         <li><a href="#" target="_blank" class="nav-link">APPLY</a></li>
-       </ul>
-     </nav>
-   </header>
-
-
-   <main>
-     <article id="home">
+    <main>
+      <article id="home">
         <section class="home__hero">
           <img src="images/hero8.jpg" alt="scholl image" />
           <h2 class="home__h2">MEET YOUR <span>BEST MENTORS</span></h2>
@@ -76,7 +74,7 @@
             </p>
 
             <blockquote>
-              <p class="home_video_p2">
+              <p class="home__video__p2">
                 &#10077;A mentor is someone who sees more talent and ability
                 within you, than you see in yourself, and helps bring it out of
                 you.&#10078;- Bob Proctor
@@ -167,5 +165,300 @@
           </figure>
         </section>
 
+        <section class="mentor__schedule">
+          <h3>BOOK A SESSION WITH OUR MENTORS</h3>
 
+          <table>
+            <caption>
+              Mentorship
+              <span>Schedule</span>
+            </caption>
+            <thead>
+              <tr>
+                <th>Week Days</th>
+                <th>Mentor</th>
+                <th>Hours</th>
+                <th>Book</th>
+              </tr>
+            </thead>
 
+            <tbody>
+              <tr>
+                <th colspan="4">Resume review Mentors</th>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>John Snow</td>
+                <td>9am-11am</td>
+                <td><a href="yes">Book now</a></td>
+              </tr>
+
+              <tr>
+                <td>Tuesday</td>
+                <td>Stefan Salvatore</td>
+                <td>9am-11am</td>
+                <td><a href="yes">Book now</a></td>
+              </tr>
+
+              <tr>
+                <td>Thursday</td>
+                <td>Catherine Klara</td>
+                <td>9am-11am</td>
+                <td><a href="yes">Book now</a></td>
+              </tr>
+
+              <tr>
+                <th colspan="4">Career Advice Mentors</th>
+              </tr>
+
+              <tr>
+                <td>Monday</td>
+                <td>Pablo Klaus</td>
+                <td>1pm-3pm</td>
+                <td><a href="yes">Book now</a></td>
+              </tr>
+
+              <tr>
+                <td>Tuesday</td>
+                <td>Michael Scofield</td>
+                <td>1pm-3pm</td>
+                <td><a href="yes">Book now</a></td>
+              </tr>
+
+              <tr>
+                <td>Thursday</td>
+                <td>Melissa Kane</td>
+                <td>1pm-3pm</td>
+                <td><a href="yes">Book now</a></td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td colspan="4">Good Luck with your Mentors</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <article id="about">
+        <h2 class="about__h2">ABOUT US</h2>
+        <p>
+          This group of five students came together with a shared vision: to
+          facilitate connections between students and mentors at the University
+          of HappyLand. Their collective goal is to bridge the gap between
+          students seeking guidance and experienced mentors willing to offer
+          support. Through their initiative, they aim to create a vibrant
+          community where mentorship thrives, empowering students to achieve
+          their academic and professional aspirations with confidence and
+          clarity.
+        </p>
+        <section class="about__section">
+          <div class>
+            <img src="images/profile1.jpeg" alt="" />
+            <h3>Lievin Murayire</h3>
+            <p>
+              A student in African Leadership University, majoring in Bachelor
+              Software Engineering.
+            </p>
+          </div>
+
+          <div>
+            <img src="images/profile2.jpeg" alt="" />
+            <h3>Palvis Ntawukamenya</h3>
+            <p>
+              A student in African Leadership University, majoring in Bachelor
+              Software Engineering.
+            </p>
+          </div>
+
+          <div>
+            <img src="images/profile5 (1).jpeg" alt="" />
+            <h3>Placide Imanzi</h3>
+            <p>
+              A student in African Leadership University, majoring in Bachelor
+              Software Engineering.
+            </p>
+          </div>
+
+          <div>
+            <img src="images/profile10 (1).jpeg" alt="" />
+            <h3>Jeremiah Agbaje</h3>
+            <p>
+              A student in African Leadership University, majoring in Bachelor
+              Software Engineering.
+            </p>
+          </div>
+
+          <!-- <div>
+            <img src="images/mentor5.png" alt="" />
+            <p>
+              A student in African Leadership University, majoring in Bachelor
+              Software Engineering.
+            </p>
+          </div> -->
+        </section>
+      </article>
+
+      <article id="apply">
+        <h2 class="apply__h2">Apply Now</h2>
+        <p class="apply__p">FILL THE FORM</p>
+        <form>
+          <fieldset class="form__div">
+            <legend>Personal Info</legend>
+
+            <div>
+              <label for="first name">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                id="first name"
+                placeholder="James"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="last Name">Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                id="last name"
+                placeholder="Musikole"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">email</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="name@gmail.com"
+              />
+            </div>
+
+            <div>
+              <label for="phone">Your Phone number</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="55555-5555-5555"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="day">BirthDay</label>
+              <input type="date" name="day" id="day" required />
+            </div>
+          </fieldset>
+
+          <fieldset class="form__div">
+            <legend>Educational Info</legend>
+            <div>
+              <label for="education">Select Your Highest Education Level</label>
+              <select name="education" id="education">
+                <option value="Associate's Degree">Associate's Degree</option>
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="Doctoral Degree">Doctoral Degree</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Field Apply</legend>
+
+            <div class="radio__div">
+              <label for="career advice">Career Advice</label>
+              <input
+                type="radio"
+                name="field"
+                id="career advice"
+                value="advice"
+                required
+              />
+            </div>
+
+            <div class="radio__div">
+              <label for="resume review">Resume review</label>
+              <input
+                type="radio"
+                name="field"
+                id="resume review"
+                value="resume"
+                required
+              />
+            </div>
+          </fieldset>
+          <div class="message__div">
+            <label for="message">Enter Your message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Enter a message"
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+    </main>
+
+    <footer id="footer">
+      <div class="footer__div__row">
+        <div class="footer__div__1">
+          <h2 class="footer__div__h2" class="nowrap">
+            UNIVERSITY OF <span>HAPPYLAND</span>
+          </h2>
+        </div>
+
+        <div class="footer__div__2">
+          <h3>Join our list to learn more</h3>
+          <p>Sign up to get updates on courses and events</p>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+          />
+          <button type="submit">SUBSCRIBE</button>
+        </div>
+        <div class="socials__div">
+          <h3>Connect With Us</h3>
+          <div class="socials__div_1">
+            <div>
+              <a href="#"><img src="images/fb.png" /></a>
+            </div>
+            <div>
+              <a href="#"><img src="images/ig.png" /></a>
+            </div>
+            <div>
+              <a href="#"><img src="images/twitter-color-svgrepo-com.svg" /></a>
+            </div>
+            <div>
+              <a href="#"><img src="images/youtube-color-svgrepo-com.svg" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <address>
+        <h3>Location</h3>
+        <p>
+          HappyLand University<br />
+          123 Main Street <br />New York, NY10001 <br />United States
+        </p>
+      </address>
+      <p class="copy">
+        Copyright&copy;2024 University of HappyLand.All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
